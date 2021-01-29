@@ -1,1 +1,1 @@
-chromeye
+chromeye uses chromedp and launches an instance of Google Chrome with Chrome DevTools Protocol. Any changes you make to your project will trigger Google Chrome to refresh. You can specify extension filtering as well as other rules.

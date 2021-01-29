@@ -68,7 +68,6 @@ func watch(ctx context.Context, extensions map[string]bool) error {
 
 			if !t.Equal(info.ModTime()) {
 				refresh = true
-				fmt.Println(path)
 				files[path] = info.ModTime()
 			}
 
